@@ -1,0 +1,15 @@
+{
+  "name": "test-action",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "git@github.com:codesee-testing-org-robin/test-action.git",
+  "author": "Robin Joseph <robinmjoseph08@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "ncc build index.js --license licenses.txt"
+  },
+  "dependencies": {
+    "@actions/core": "^1.5.0",
+    "@actions/github": "^5.0.0"
+  }
+}
